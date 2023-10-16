@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -->
+    <title>Foodi | Resturent Website Landing Page</title>
+    <!-- -->
+    <meta name="keywords" content="food, resturent, plates, ">
+    <meta name="description" content="Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship">
+    <!-- -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@[your-site-account-anme-in-twitter]" />
+    <meta name="twitter:creator" content="@[your-account-anme-in-twitter]" />
+    <!-- -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://rawaabaessa.github.io/foodi" />
+    <meta property="og:site_name" content="Foodi">
+    <meta property="og:title" content="Resturent Website Landing Page" />
+    <meta property="og:description" content="Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship" />
+    <meta property="og:image" content="http://rawaabaessa.github.io/foodi/assets/images/[your-image-to-twitter]" />
+    <meta property="og:locale" content="en_US" />
+    <!-- -->
+    <meta name="author" content="Rawaa">
+    <!-- -->
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="assets/vendors/fontawesome-free-6.4.2-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" href="assets/images/favicon_io/favicon.ico">
+    <!-- -->
+</head>
+<body>
+    <header>
+        <img src="assets/images/Group 20.svg">
+        <ul class="nav">
+            <li>home</li>
+            <li>menu<i class="fa-solid fa-angle-down"></i></li>
+            <li>services <i class="fa-solid fa-angle-down"></i></li>
+            <li>offers</li>
+        </ul>
+        <div class="search-bag">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping">
+                <div class="count">8</div>
+            </i>
+            <button><i class="fa-solid fa-phone-volume"></i>contact</button>
+        </div>
+        
+    </header>
+    <main>
+        <section class="intro">
+            <div class="intro-one">
+                <h1>Dive into delights <br> of delectable <span>food</span></h1>
+                <p>where each plate weaves a story of culinary mastry and passionate craftstmanship</p>
+                <div class="vid-btn">
+                    <button>Order Now</button>
+                    <button>Watch Video<div><i class="fa-solid fa-play"></i></div></button>
+                </div>
+            </div>
+            <div class="intro-two">
+                <div class="girl-circle">
+                    <img src="assets/images/Intersect.png">
+                    <div class="spicy-food">Hot Spicy Food 🌶<i class="fa-solid fa-play"></i></div>
+                </div>
+                <div class="intro-offer position-1">
+                    <img src="assets/images/image 14.png">
+                    <div class="offer-info">
+                        <h4>spicy noodels</h4>
+                        <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span>$18.00</span>
+                    </div>
+                </div>
+                <div class="intro-offer position-2">
+                    <img src="assets/images/image 13.png">
+                    <div class="offer-info">
+                        <h4>vegetarian salad</h4>
+                        <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span>$23.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular-category">
+            <span>customer favorite</span>
+            <h1>popular catagories</h1>
+            <div class="cards">
+                <div>
+                    <div>
+                        <img src="assets/images/pngwing 4.png">
+                    </div>
+                    <h4>main dish</h4>
+                    <p>(86 dishes)</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="assets/images/pngwing 6.png">
+                    </div>
+                    <h4>breakfast</h4>
+                    <p>(12 breakfast)</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="assets/images/pngwing 3.png">
+                    </div>
+                    <h4>dessert</h4>
+                    <p>(48 dessert)</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="assets/images/pngwing 7.png">
+                    </div>
+                    <h4>browse all</h4>
+                    <p>(86 items)</p>
+                </div>
+            </div>
+        </section>
+        <section class="special-deshies">
+            <span>special deshies</span>
+            <div class="heading">
+                <h1>standout dishes <br> from our menu</h1>
+                <div class="prev-next">
+                    <div onclick="prevItem()"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div onclick="nextItem()"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="special-deshies-item">
+                    <div class="slide-item">
+                        <div class="like"><i onclick="likebtn()" class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Fattoush salad.png">
+                        <div class="special-info">
+                            <h4>fattoush salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$24.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/images/Vegetable salad.png">
+                        <div class="special-info">
+                            <h4>vegitable salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$26.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <img src="assets/images/Egg salad.png">
+                        <div class="special-info">
+                            <h4>egg vegi salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$23.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Fattoush salad.png">
+                        <div class="special-info">
+                            <h4>fattoush salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$24.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Vegetable salad.png">
+                        <div class="special-info">
+                            <h4>vegitable salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$26.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Egg salad.png">
+                        <div class="special-info">
+                            <h4>egg vegi salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$23.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Fattoush salad.png">
+                        <div class="special-info">
+                            <h4>fattoush salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$24.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.9</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Vegetable salad.png">
+                        <div class="special-info">
+                            <h4>vegitable salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$26.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.6</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="slide-item">
+                        <div class="like"><i class="fa-solid fa-heart"></i></div>
+                        <img src="assets/images/Egg salad.png">
+                        <div class="special-info">
+                            <h4>egg vegi salad</h4>
+                            <p>description of the item</p>
+                            <div class="special-price">
+                                <span>$23.00</span>
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>4.5</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="testmonials">
+            <div class="best-chef">
+                <div>
+                    <img src="assets/images/pngwing 2.png">
+                    <span class="emoji">😋</span>
+                    <span class="emoji">🍕</span>
+                    <div class="comment">Our Best Chef😄<i class="fa-solid fa-play"></i></div>
+                </div>
+            </div>
+            <div class="feedback">
+                <span>testimonials</span>
+                <h1>what our customers <br> say about us</h1>
+                <p>"i had the pleasure of dining at foodi last night, and i'm still raving about the experience! the attention to detail in presentation and service was impecceble"</p>
+                <div class="customer-feedback">
+                    <div class="avatar">
+                        <img src="assets/images/portrait-lovely-blond-female-part-time-employee-talking-manager-customer-support-removebg-preview 1.png">
+                        <img src="assets/images/image 10.png">
+                        <img src="assets/images/image 11.png">
+                    </div>
+                    <div class="feedback-rating">
+                        <span>customer feedback</span>
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.9</span>
+                            <span>(18.6k Reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="story-service">
+            <div class="explore">
+                <span>our story & services</span>
+                <h1>our culinary journey <br> and services</h1>
+                <p>Rooted in passion, we curate unforgettable dining experience and offer exceptional services, blending cuulinary artistry with warm hospitality.</p>
+                <button>Explore</button>
+            </div>
+            <div class="service">
+                <div>
+                    <div class="service-item">
+                        <img src="assets/images/fi-rr-salad.svg">
+                        <span>catring</span>
+                        <p>Delight your guests with our flavors and presentation</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-item">
+                        <img src="assets/images/fi-rr-time-fast.svg">
+                        <span>fast delivery</span>
+                        <p>We deliver your order promptly to your door</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-item">
+                        <img src="assets/images/fi-rr-shopping-cart-check.svg">
+                        <span>online ordering</span>
+                        <p>Explore  menu & order with ease using our online ordering</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-item">
+                        <img src="assets/images/fi-rr-gift.svg">
+                        <span>gift cards</span>
+                        <p>Give the gift of execptional dining with Foodi Gift Cards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logo rowspan">
+            <div>
+                <img src="assets/images/Group 20.svg">
+                <p class="color-gry">savor the artistry where every dish is a culinary masterpiece</p>
+            </div>
+            
+        </div>
+        <div class="footer-head">useful links</div>
+        <div class="footer-head">main menu</div>
+        <div class="footer-head">contact us</div>
+        
+        <div class="color-gry footer-link">About us</div>
+        <div class="color-gry footer-link">Home</div>
+        <div class="color-gry footer-link">example@email.com</div>
+        
+        <div class="color-gry footer-link">Events</div>
+        <div class="color-gry footer-link">Offers</div>
+        <div class="color-gry footer-link">+67 958 248 966</div>
+        
+        <div class="color-gry footer-link">Blogs</div>
+        <div class="color-gry footer-link">Menus</div>
+        <div class="color-gry footer-link">Social media</div>
+        
+        <div class="color-gry footer-link">FAQ</div>
+        <div class="color-gry footer-link">Reservation</div>
+        <div></div>
+        <div class="social-media rowspan-2">
+            <div><a><i class="fa-brands fa-facebook-f"></i></a></div>
+            <div><a><i class="fa-brands fa-instagram"></i></a></div>
+            <div><a><i class="fa-brands fa-twitter"></i></a></div>
+            <div><a><i class="fa-brands fa-youtube"></i></a></div>
+        </div>
+        <div class="colspam-3 color-gry rowspan-2 copyright">copyright &copy; 2023 Dscode | All right reserved</div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
